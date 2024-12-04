@@ -30,8 +30,8 @@ const Nav = () => {
         <div className='sm:flex hidden'>
         {session?.user ? (
             <div className='flex gap-3 md:gap-5'>
-                <Link href='/creat-prompt' className='black_btn'>
-                Creat Post
+                <Link href='/create-prompt' className='black_btn'>
+                Create Post
                 </Link>
                 <button type='button' onClick={signOut} className='outline_btn'>Sign Out</button>
                 <Link href="/profile">
@@ -69,7 +69,7 @@ const Nav = () => {
                      onClick={()=>settoggleDropdown(false)}>
                     My Profile
                     </Link>
-                    <Link href="/creat-prompt" className='dropdown_link' onClick={()=>settoggleDropdown(false)}>Create Prompt</Link>
+                    <Link href="/create-prompt" className='dropdown_link' onClick={()=>settoggleDropdown(false)}>Create Prompt</Link>
                     <button type='button' className='mt-5 w-full black_btn'
                      onClick={()=>{settoggleDropdown(false); signOut()
 
