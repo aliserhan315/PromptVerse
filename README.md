@@ -1,41 +1,63 @@
-<<<<<<< HEAD
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# PromptVerse
+
+**PromptVerse** is a responsive web app designed for sharing and managing AI prompts. Built with **Next.js 15**, this app enables users to explore, create, and organize their own AI prompts while interacting with a community-driven platform. Features include real-time prompt updates, prompt tagging, advanced search functionalities, and user-friendly management tools.
+
+Access the live app here: [PromptVerse Live](https://prompt-verse-4b6x.vercel.app/)
+
+---
+
+## Features
+
+- **Responsive Design**: A sleek and modern interface that adapts to all screen sizes.
+- **Google Cloud Authentication**: Secure sign-in and authentication using Google Cloud.
+- **Prompt Management**: Users can create, edit, and delete their own prompts with full control.
+- **Dynamic Homepage**: Displays new prompts in real time, offering a fresh experience with each visit.
+- **Prompt Organization**: Tagging, searching, and categorizing prompts for easy access and navigation.
+- **Community Exploration**: Explore prompts shared by other users for learning and inspiration.
+- **MongoDB Integration**: Utilizes MongoDB for efficient storage and management of user data.
+
+---
+
+## Tech Stack
+
+- **Frontend**: Next.js 15, React
+- **Authentication**: Google Cloud
+- **Backend**: Node.js (via Next.js API routes)
+- **Database**: MongoDB
+- **Styling**: Tailwind CSS
+
+---
 
 ## Getting Started
 
-First, run the development server:
+1. **Clone the repository**:
+    ```bash
+    git clone https://github.com/yourusername/promptverse.git
+    cd promptverse
+    ```
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+2. **Install dependencies**:
+    ```bash
+    npm install
+    ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+3. **Set up environment variables**: Create a `.env.local` file and add the required variables for Google Cloud authentication and MongoDB.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+4. **Run the development server**:
+    ```bash
+    npm run dev
+    ```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+5. **Access the app** at `http://localhost:3000`.
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
+## Contributing
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+We welcome contributions to enhance **PromptVerse**. If you have any ideas or bug fixes, please fork the repo, make your changes, and submit a pull request.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+## License
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
-=======
-# PromptVerse
-Web App To Discover and Share AI Prompts 
->>>>>>> 1775e015615fd3b07f7827646483b16b1ebfee9f
+This project is licensed under the MIT License.
